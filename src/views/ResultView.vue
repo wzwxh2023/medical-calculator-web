@@ -189,7 +189,7 @@ function goBack() {
           </div>
           <div class="drug-dose">
             <span class="dose-value">{{ drug.calculatedDose }}</span>
-            <span class="dose-unit">{{ drug.dosageUnit === 'Calvert公式' ? 'mg' : drug.dosageUnit }}</span>
+            <span class="dose-unit">mg</span>
           </div>
           <div class="drug-info">
             <span class="drug-admin">{{ drug.administration }}</span>
