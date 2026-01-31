@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "化疗剂量计算助手 - 基于 CSCO 指南的化疗药物剂量计算工具",
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
