@@ -48,7 +48,7 @@ const filteredSchemes = computed(() => {
 })
 
 // 选择方案详情
-function selectScheme() {
+function selectScheme(_scheme: ChemotherapyScheme) {
   // 跳转到方案详情页（暂时跳转到患者信息页）
   router.push('/patient-info')
 }

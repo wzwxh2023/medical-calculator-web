@@ -34,7 +34,7 @@ async function clearAll() {
 }
 
 // 基于记录新建计算
-function newCalcFromRecord() {
+function newCalcFromRecord(_record: any) {
   // TODO: 加载记录数据到会话
   router.push('/patient-info')
 }
